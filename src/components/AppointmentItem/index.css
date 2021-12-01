@@ -1,0 +1,29 @@
+li {
+  list-style: none;
+}
+
+.appointment-element {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin: 20px 10px 0 10px;
+  padding: 15px;
+  width: 250px;
+}
+
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
